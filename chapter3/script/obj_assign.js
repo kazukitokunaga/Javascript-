@@ -36,4 +36,4 @@ console.log(pet);
 //   photo: "http://www.wings.msn.to/img/ham.jpg",
 //   type: "スノーホワイトハムスター",
 //   weight: 42
-}
+// }
