@@ -16,6 +16,7 @@ function showElement(value, key){
 }
 
 var ary = [1, 2, 4, 8, 16];
+// 下記のshowElementのように、呼び出し先の関数の中で呼び出される関数のことをコールバック関数（後で呼び出される（＝コールバックされる）という意味）という。
 arrayWalk(ary, showElement);
 
 // 0:1
