@@ -11,3 +11,6 @@ hoge('Angular', 'React', 'Backbone'); // 結果：Angular/React/Backbone
  * sliceメソッドは、引数を指定しない場合は元の配列をそのまま帰すため、argumentsオブジェクトの内容が配列として得られる。
  * callメソッドは、関数オブジェクト配下のthisが示すオブジェクトを切り替えることができる。
  */
+
+// なお、ES2015からは、以下のように配列に変換できるようになった。
+let args = Array.from(arguments);
